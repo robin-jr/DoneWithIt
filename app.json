@@ -1,0 +1,33 @@
+{
+	"expo": {
+		"name": "DoneWithIt",
+		"slug": "DoneWithIt",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/iconD.png",
+		"splash": {
+			"image": "./app/assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#e63c4b"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"android": {
+			"useNextNotificationsApi": true,
+			"package": "com.jrnspark.donewithit",
+			"versionCode": 1
+		},
+		"notification": {
+			"iosDisplayInForeground": true
+		},
+		"ios": {
+			"supportsTablet": true
+		},
+		"web": {
+			"favicon": "./app/assets/favicon.png"
+		},
+		"description": "An app to sell not-in-use products..."
+	}
+}
